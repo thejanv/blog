@@ -18,7 +18,8 @@ export default defineConfig({
 						{ label: 'Example Guide', slug: 'guides/example' },{
 							label: 'Linux',
 							items: [
-								{ label: 'Linux File Permission', slug: 'guides/linux/example' }
+								{ label: 'Linux File Permission', slug: 'guides/linux/filepermission' },
+								{ label: 'Linux File System Hierarchy', slug: 'guides/linux/filesystemstructure' }
 							]
 						}
 						
