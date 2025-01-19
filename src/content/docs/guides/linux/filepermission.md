@@ -1,6 +1,6 @@
 ---
 title: Linux File Permission
-description: A guide in my new Starlight docs site.
+description: Linux file permissions define who can read, write, or execute a file or directory, ensuring secure access control for users, groups, and others.
 ---
 r :- Read\
 w :- Write\
