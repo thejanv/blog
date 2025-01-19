@@ -8,7 +8,7 @@ export default defineConfig({
 		starlight({
 			title: 'My Docs',
 			social: {
-				github: 'https://linkedin.com/in/thejanv',
+				linkedin: 'https://linkedin.com/in/thejanv',
 			},
 			sidebar: [
 				{
