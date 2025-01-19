@@ -18,7 +18,7 @@ export default defineConfig({
 						{ label: 'Example Guide', slug: 'guides/example' },{
 							label: 'Linux',
 							items: [
-								{ label: 'Example Guide', slug: 'guides/linux/example' }
+								{ label: 'Linux File Permission', slug: 'guides/linux/example' }
 							]
 						}
 						
