@@ -21,11 +21,11 @@ r-x :- read, execute
 
 ## Change permission
 ### Change ownership
-```
+```bash
 chown {new owner} {file name/ directory}
 ```
 user and group change
-```
+```bash
 chown {new owner}:{new group} {file name/ directory}
 ```
 ### Change permission / Change Mode
@@ -39,11 +39,11 @@ r-x = 4+0+1 = 5
 775 
 ```
 
-```
+```bash
 chmod {new mode number} {file name}
 ```
 ssh key pair:
-```
+```bash
 chmod 400 vmPrivatekey.pem
 ```
 
