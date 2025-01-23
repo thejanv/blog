@@ -18,6 +18,7 @@ export default defineConfig({
 						{ label: 'Example Guide', slug: 'guides/example' },{
 							label: 'Linux',
 							items: [
+								{ label: 'Access the Command Line', slug: 'guides/linux/accesscommandline'},
 								{ label: 'Linux File Permission', slug: 'guides/linux/filepermission' },
 								{ label: 'Linux File System Hierarchy', slug: 'guides/linux/filesystemstructure' }
 							]
