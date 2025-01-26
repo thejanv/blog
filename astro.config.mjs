@@ -10,7 +10,7 @@ export default defineConfig({
 		starlight({
 			plugins:[
 				starlightObsidian({
-					vault:"../Sync/blog"
+					vault:"Lets Write"
 				})
 			],
 			title: 'My Docs',
