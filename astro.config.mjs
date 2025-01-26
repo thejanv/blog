@@ -1,36 +1,29 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightObsidian, { obsidianSidebarGroup } from 'starlight-obsidian'
 
 // https://astro.build/config
 export default defineConfig({
 	site: "https://blog.thejanv.com/",
 	integrations: [
 		starlight({
+			plugins:[
+				starlightObsidian({
+					vault:"../Sync/blog"
+				})
+			],
 			title: 'My Docs',
 			social: {
 				linkedin: 'https://linkedin.com/in/thejanv',
 			},
 			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },{
-							label: 'Linux',
-							items: [
-								{ label: 'Access the Command Line', slug: 'guides/linux/chapter_ii'},
-								{ label: 'Manage file from terminal', slug: 'guides/linux/chapter_iii' },
-								{ label: 'Linux File Permission', slug: 'guides/linux/filepermission' },
-							]
-						}
-						
-					],
-				},
+				obsidianSidebarGroup,
 				{
 					label: 'Certs Resources',
 					autogenerate: { directory: 'vouchers' },
 				},
+				
 			],
 		}),
 	],
