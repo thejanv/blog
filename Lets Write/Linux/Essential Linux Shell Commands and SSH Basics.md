@@ -204,20 +204,12 @@ echo "This is a long command" \
 
 ### Useful Keyboard Shortcuts
 
-| Shortcut | Description |
-
-|---------------------|------------------------------------|
-
-| `Ctrl + A` | Move to the beginning of the line |
-
-| `Ctrl + E` | Move to the end of the line |
-
-| `Ctrl + U` | Clear from beginning to cursor |
-
-| `Ctrl + K` | Clear from cursor to the end |
-
-| `Ctrl + Left Arrow` | Move to the beginning of the previous word |
-
-| `Ctrl + Right Arrow`| Move to the end of the next word |
-
-| `Ctrl + R` | Search through command history |
+| Shortcut             | Description                          |
+| -------------------- | ------------------------------------ |
+| `Ctrl + A`           | Move to the beginning of the line    |
+| `Ctrl + E`           | Move to the end of the line          |
+| `Ctrl + U`           | Clear from beginning to cursor       |
+| `Ctrl + K`           | Clear from cursor to the end         |
+| `Ctrl + Left Arrow`  | Move to the beginning of the previous word |
+| `Ctrl + Right Arrow` | Move to the end of the next word     |
+| `Ctrl + R`           | Search through command history      |
