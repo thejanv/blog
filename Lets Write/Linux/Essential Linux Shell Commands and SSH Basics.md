@@ -5,12 +5,7 @@ title: Essential Linux Shell Commands and SSH Basics
 description: A concise guide covering key Linux shell commands, SSH login methods, private key permissions, and command-line editing shortcuts.
 
 ---
-
-  
-
 ## Introduction to Linux Shell
-
-  
 
 ### User Shell Prompts
 
@@ -204,12 +199,12 @@ echo "This is a long command" \
 
 ### Useful Keyboard Shortcuts
 
-| Shortcut             | Description                          |
-| -------------------- | ------------------------------------ |
-| `Ctrl + A`           | Move to the beginning of the line    |
-| `Ctrl + E`           | Move to the end of the line          |
-| `Ctrl + U`           | Clear from beginning to cursor       |
-| `Ctrl + K`           | Clear from cursor to the end         |
+| Shortcut             | Description                                |
+| -------------------- | ------------------------------------------ |
+| `Ctrl + A`           | Move to the beginning of the line          |
+| `Ctrl + E`           | Move to the end of the line                |
+| `Ctrl + U`           | Clear from beginning to cursor             |
+| `Ctrl + K`           | Clear from cursor to the end               |
 | `Ctrl + Left Arrow`  | Move to the beginning of the previous word |
-| `Ctrl + Right Arrow` | Move to the end of the next word     |
-| `Ctrl + R`           | Search through command history      |
+| `Ctrl + Right Arrow` | Move to the end of the next word           |
+| `Ctrl + R`           | Search through command history             |

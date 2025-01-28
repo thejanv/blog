@@ -6,7 +6,7 @@ file:
 ---
 ---
 ## File System Directories in RHEL9
-![A rocketship in space](../../../../assets/file-system-directories-rhel9.png)
+![[file-system-directories-rhel9.png]]
 
 | Location  | Purpose                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -100,17 +100,9 @@ ln -s {existing_file_or_directory} {link_name}
 
 - Points to the file name rather than the data; becomes invalid if the original file is deleted and not recreated.
 
-  
-
----
-
-  
-
 ## Matching File Names with Shell Expansions
 
-  
-
-### Pattern Matching and Meta Characters
+  ### Pattern Matching and Meta Characters
 
 | Pattern           | Matches |
 | ----------------- | ------- |
@@ -160,8 +152,7 @@ echo ${VARIABLENAME}
 ```
 
   
-
-### Command Substitution
+  ### Command Substitution
 
 - Replaces a command with its output.
 
@@ -170,8 +161,6 @@ echo ${VARIABLENAME}
 $(command)
 
 ```
-
-  
 
 ### Protecting Arguments from Expansion
 
