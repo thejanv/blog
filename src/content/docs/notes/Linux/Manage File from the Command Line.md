@@ -10,7 +10,29 @@ description: file system directory structures, navigation commands, file and
 
 ## File System Directories in RHEL9
 
-![A rocketship in space](../../../../assets/notes/linux/file-system-directories-rhel9.png)
+```bash
+.
+├── afs
+├── bin -> usr/bin
+├── boot
+├── dev
+├── etc
+├── home
+├── lib -> usr/lib
+├── lib64 -> usr/lib64
+├── media
+├── mnt
+├── opt
+├── proc
+├── root
+├── run
+├── sbin -> usr/sbin
+├── srv
+├── sys
+├── tmp
+├── usr
+└── var
+```
 
 | Location  | Purpose                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -103,8 +125,6 @@ ln -s {existing_file_or_directory} {link_name}
 * Independent of the file system.
 
 * Points to the file name rather than the data; becomes invalid if the original file is deleted and not recreated.
-
-***
 
 ## Matching File Names with Shell Expansions
 
